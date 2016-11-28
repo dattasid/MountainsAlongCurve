@@ -66,9 +66,6 @@ public class MountainsAlongCurve
 //      drawBezTri(b1, ba[0], g2, im, false);
 //      drawBezTri(b1, ba[1], g2, im, true);
         
-//        ImageOps.showImage(im);
-//        ImageOps.exitInSecs(10);
-        
         ImageIO.write(im, "png", new File("a.png"));
         
     }
